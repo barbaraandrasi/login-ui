@@ -1,0 +1,39 @@
+.wrapper {
+    padding: 10%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color:lightblue;
+}
+
+.wrapper>.main {
+    background-image: url(https://image.freepik.com/free-vector/tropical-leaves-wallpaper-design_23-2148513687.jpg);
+    text-align: center;
+    padding: 10%;
+    background-size: contain;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 40%;
+    margin:0 auto;
+}
+
+Button {
+    width: -webkit-fill-available;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: none !important
+}
+
+.ant-form-item-has-error .ant-form-item-explain, .ant-form-item-has-error .ant-form-item-split {
+    text-align: left;
+}
